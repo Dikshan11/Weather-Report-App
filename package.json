@@ -1,32 +1,16 @@
 {
   "name": "test",
+  "homepage": "https://Dikshan11.github.io/weather-report-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-  "homepage": "./",
-  "dependencies": {
-    "@testing-library/jest-dom": "^6.0.0",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
-    "axios": "^1.4.0",
-    "buffer": "6.0.3",
-    "path-browserify" : "^1.0.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-scripts": "5.0.1",
-    "spell-checker-js": "^1.0.0",
-    "tailwindcss": "^4.1.12",
-    "web-vitals": "^3.3.1"
-  },
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
